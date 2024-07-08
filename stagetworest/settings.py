@@ -49,7 +49,7 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication", 
     ), 
-    'EXCEPTION_HANDLER': 'your_app_name.exception_handler.custom_exception_handler',
+    'EXCEPTION_HANDLER': 'stagetwo.exception_handler.custom_exception_handler',
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
     ],
