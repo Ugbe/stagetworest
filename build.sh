@@ -7,6 +7,7 @@ echo "Building the project..."
 python3.12 -m pip install -r requirements.txt
 
 echo "Migrations..."
+python3.12 manage.py makemigrations 
 python3.12 manage.py migrate --noinput
 
 # Collect static files
